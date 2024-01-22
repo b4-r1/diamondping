@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "diamondping",
+	"version": "1.0.0",
+	"name": "DiamondPing",
+	"description": "Eff6 Helper Mod.",
+	"authors": [
+		"@._bari"
+	],
+	"contact": {
+		"homepage": "ur mom",
+		"sources": "i made it the fuck up"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/diamondping/icon.jpg",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+		],
+		"fabric-datagen": [
+		]
+	},
+	"mixins": [
+		"diamondping.mixins.json",
+		{
+			"config": "diamondping.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
