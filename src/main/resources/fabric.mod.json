@@ -3,13 +3,13 @@
 	"id": "diamondping",
 	"version": "1.0.0",
 	"name": "DiamondPing",
-	"description": "Eff6 Helper Mod.",
+	"description": "Instamine Helper Mod",
 	"authors": [
-		"@._bari"
+		"b4-r1"
 	],
 	"contact": {
-		"homepage": "ur mom",
-		"sources": "i made it the fuck up"
+		"homepage": "to be added",
+		"sources": "https://github.com/b4-r1/diamondping"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/diamondping/icon.jpg",
